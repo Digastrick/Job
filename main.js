@@ -50,8 +50,8 @@ const radioMass = [{
 },
 ]
 let buttonElem = [];
-const test = () => {
-    let plz = radioMass.map(res => {   
+const radioCreate = () => {
+    let radioCreate = radioMass.map(res => {   
 
     const wrapper = document.createElement('div');
     wrapper.classList.add(res.position);
@@ -97,4 +97,4 @@ const test = () => {
 const container = document.querySelector('.main');
 
 
- test()
+radioCreate()
